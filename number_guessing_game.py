@@ -1,7 +1,7 @@
 import random
 
 def guess_number():
-   
+    
     target_number = random.randint(0, 100)
 
     while True:
@@ -13,7 +13,7 @@ def guess_number():
             print("Winner!")
             play_again = input("Would you like to play again? (y or n) ").lower()
             
-          
+            
             if play_again == 'y':
                 target_number = random.randint(0, 100)
             else:
